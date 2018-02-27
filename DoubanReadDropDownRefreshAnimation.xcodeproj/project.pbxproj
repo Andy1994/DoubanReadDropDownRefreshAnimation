@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DAA1F452045337200AA8323 /* WBClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAA1F442045337200AA8323 /* WBClockView.m */; };
 		0DE0CC9C204410D00090E9C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0CC9B204410D00090E9C8 /* AppDelegate.m */; };
 		0DE0CC9F204410D00090E9C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0CC9E204410D00090E9C8 /* ViewController.m */; };
 		0DE0CCA2204410D00090E9C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0CCA0204410D00090E9C8 /* Main.storyboard */; };
 		0DE0CCA4204410D00090E9C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0CCA3204410D00090E9C8 /* Assets.xcassets */; };
 		0DE0CCA7204410D00090E9C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0CCA5204410D00090E9C8 /* LaunchScreen.storyboard */; };
 		0DE0CCAA204410D00090E9C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0CCA9204410D00090E9C8 /* main.m */; };
+		0DE0CCBB204506E40090E9C8 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0CCB1204506E40090E9C8 /* blueArrow.png */; };
+		0DE0CCBC204506E40090E9C8 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0CCB2204506E40090E9C8 /* blueArrow@2x.png */; };
+		0DE0CCBD204506E40090E9C8 /* UIScrollView+WBRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0CCB4204506E40090E9C8 /* UIScrollView+WBRefresh.m */; };
+		0DE0CCBE204506E40090E9C8 /* WBRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0CCB6204506E40090E9C8 /* WBRefreshBaseView.m */; };
+		0DE0CCBF204506E50090E9C8 /* WBRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0CCB8204506E40090E9C8 /* WBRefreshFooterView.m */; };
+		0DE0CCC0204506E50090E9C8 /* WBRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0CCBA204506E40090E9C8 /* WBRefreshHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DAA1F432045337200AA8323 /* WBClockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBClockView.h; sourceTree = "<group>"; };
+		0DAA1F442045337200AA8323 /* WBClockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBClockView.m; sourceTree = "<group>"; };
 		0DE0CC97204410D00090E9C8 /* DoubanReadDropDownRefreshAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanReadDropDownRefreshAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE0CC9A204410D00090E9C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DE0CC9B204410D00090E9C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +35,16 @@
 		0DE0CCA6204410D00090E9C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DE0CCA8204410D00090E9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DE0CCA9204410D00090E9C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DE0CCB1204506E40090E9C8 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		0DE0CCB2204506E40090E9C8 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		0DE0CCB3204506E40090E9C8 /* UIScrollView+WBRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WBRefresh.h"; sourceTree = "<group>"; };
+		0DE0CCB4204506E40090E9C8 /* UIScrollView+WBRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WBRefresh.m"; sourceTree = "<group>"; };
+		0DE0CCB5204506E40090E9C8 /* WBRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRefreshBaseView.h; sourceTree = "<group>"; };
+		0DE0CCB6204506E40090E9C8 /* WBRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRefreshBaseView.m; sourceTree = "<group>"; };
+		0DE0CCB7204506E40090E9C8 /* WBRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRefreshFooterView.h; sourceTree = "<group>"; };
+		0DE0CCB8204506E40090E9C8 /* WBRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRefreshFooterView.m; sourceTree = "<group>"; };
+		0DE0CCB9204506E40090E9C8 /* WBRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRefreshHeaderView.h; sourceTree = "<group>"; };
+		0DE0CCBA204506E40090E9C8 /* WBRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRefreshHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DAA1F422045335B00AA8323 /* WBClockView */ = {
+			isa = PBXGroup;
+			children = (
+				0DAA1F432045337200AA8323 /* WBClockView.h */,
+				0DAA1F442045337200AA8323 /* WBClockView.m */,
+			);
+			path = WBClockView;
+			sourceTree = "<group>";
+		};
 		0DE0CC8E204410D00090E9C8 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +86,8 @@
 		0DE0CC99204410D00090E9C8 /* DoubanReadDropDownRefreshAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				0DAA1F422045335B00AA8323 /* WBClockView */,
+				0DE0CCB0204506E40090E9C8 /* WBRefreshView */,
 				0DE0CC9A204410D00090E9C8 /* AppDelegate.h */,
 				0DE0CC9B204410D00090E9C8 /* AppDelegate.m */,
 				0DE0CC9D204410D00090E9C8 /* ViewController.h */,
@@ -69,6 +99,23 @@
 				0DE0CCA9204410D00090E9C8 /* main.m */,
 			);
 			path = DoubanReadDropDownRefreshAnimation;
+			sourceTree = "<group>";
+		};
+		0DE0CCB0204506E40090E9C8 /* WBRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				0DE0CCB1204506E40090E9C8 /* blueArrow.png */,
+				0DE0CCB2204506E40090E9C8 /* blueArrow@2x.png */,
+				0DE0CCB3204506E40090E9C8 /* UIScrollView+WBRefresh.h */,
+				0DE0CCB4204506E40090E9C8 /* UIScrollView+WBRefresh.m */,
+				0DE0CCB5204506E40090E9C8 /* WBRefreshBaseView.h */,
+				0DE0CCB6204506E40090E9C8 /* WBRefreshBaseView.m */,
+				0DE0CCB7204506E40090E9C8 /* WBRefreshFooterView.h */,
+				0DE0CCB8204506E40090E9C8 /* WBRefreshFooterView.m */,
+				0DE0CCB9204506E40090E9C8 /* WBRefreshHeaderView.h */,
+				0DE0CCBA204506E40090E9C8 /* WBRefreshHeaderView.m */,
+			);
+			path = WBRefreshView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +178,9 @@
 			files = (
 				0DE0CCA7204410D00090E9C8 /* LaunchScreen.storyboard in Resources */,
 				0DE0CCA4204410D00090E9C8 /* Assets.xcassets in Resources */,
+				0DE0CCBC204506E40090E9C8 /* blueArrow@2x.png in Resources */,
 				0DE0CCA2204410D00090E9C8 /* Main.storyboard in Resources */,
+				0DE0CCBB204506E40090E9C8 /* blueArrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAA1F452045337200AA8323 /* WBClockView.m in Sources */,
+				0DE0CCC0204506E50090E9C8 /* WBRefreshHeaderView.m in Sources */,
 				0DE0CC9F204410D00090E9C8 /* ViewController.m in Sources */,
 				0DE0CCAA204410D00090E9C8 /* main.m in Sources */,
+				0DE0CCBD204506E40090E9C8 /* UIScrollView+WBRefresh.m in Sources */,
+				0DE0CCBE204506E40090E9C8 /* WBRefreshBaseView.m in Sources */,
+				0DE0CCBF204506E50090E9C8 /* WBRefreshFooterView.m in Sources */,
 				0DE0CC9C204410D00090E9C8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
